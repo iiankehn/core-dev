@@ -14,7 +14,7 @@ A release and development journal for CORE projects. Plain HTML, CSS, and a smal
 Repository: `iiankehn/core-dev` (public).
 In **Settings → Pages**, use **Deploy from a branch**, branch **main**, folder **/(root)**. Every push to `main` publishes the static site.
 
-Site: https://iiankehn.github.io/core-dev/
+Site: https://dev.iiankehn.com/
 Relative URLs work with the GitHub Pages project path. The 404 page uses `<base href="/core-dev/">` to handle missing nested paths; change that to `/` if moving to a custom domain.
 
 ## Add an update
@@ -28,9 +28,13 @@ Articles render completely without JavaScript. Without JavaScript, the site foll
 
 ## Included articles
 
+- Slate 2026.10: Notes and Forge come together — October 7, 2026.
 - Introducing CORE Dev — October 7, 2026.
 - Acute Web 1.1 — October 5, 2026.
 - Acute Web 1.0.1 — September 28, 2026.
 - Acute Web 1.0 — September 28, 2026.
 
 Release details were checked against the public Acute Web GitHub release notes on October 7, 2026. The 1.1 article includes the reported Waydroid startup issue rather than implying compatibility has been validated.
+
+Slate 2026.10 details and download links were checked against the published `slate-2026-10` release in `iiankehn/slate-android` on October 7, 2026. The article explains both the in-place Notes upgrade and the separate standalone-Forge import path.
+

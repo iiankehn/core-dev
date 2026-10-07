@@ -100,3 +100,8 @@ h1,h2,h3,p,dt,dd { overflow-wrap: anywhere; }
 .site-header nav { flex-wrap: wrap; }
 .cover-top,.cover-bottom { flex-wrap: wrap; }
 @media (max-width: 760px) { .cover-number { font-size: clamp(4rem, 27vw, 8rem); } }
+
+/* Slate's featured release uses the project's muted teal. */
+.release-cover-slate { background: radial-gradient(ellipse at 5% 15%, #91c9c5 0%, transparent 56%), linear-gradient(145deg, #377c80 5%, #285c67 75%, #193e4d); }
+.cover-word { font-size: clamp(4rem, 9vw, 7rem); }
+
